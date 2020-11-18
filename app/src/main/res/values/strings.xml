@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">BloodDrop</string>
+
+    <string name="tv_main_action">What do you want to do? Donate blood, Request Blood</string>
+    <string name="tv_req_blood">Request Blood</string>
+    <string name="tv_don_blood">Donate Blood</string>
+    <string name="tv_blood_group">Blood Group</string>
+    <string name="tv_phone_num">Phone Number</string>
+    <string name="tv_location">Location</string>
+    <string name="tv_name">Name</string>
+
+    <string name="btn_donate_blood">Donate Blood</string>
+    <string name="btn_request_blood">Request Blood</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="btn_show_map">Show Map</string>
+    <string name="btn_post_my_request">Post my Request</string>
+    <string name="btn_location">Choose location</string>
+
+    <string name="et_hint_full_name">Full Name</string>
+    <string name="et_hint_phone_number">Phone Number</string>
+
+    <string name="tv_amount">Amount</string>
+
+    <string name="et_amount">Pints of blood needed</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="google_maps_api"> add your own  </string>
+    <string name="choose_date">Choose Date</string>
+    <string name="choose_time">Choose Time</string>
+
+    <string-array name="spinner_blood_group">
+        <item>A +ve</item>
+        <item>A -ve</item>
+        <item>B +ve</item>
+        <item>B -ve</item>
+        <item>AB +ve</item>
+        <item>AB -ve</item>
+        <item>O +ve</item>
+        <item>O -ve</item>
+    </string-array>
+    <string-array name="spinner_districts">
+        <item>Ahmednagar</item>
+        <item>Akola</item>
+        <item>Amravati</item>
+        <item>Aurangabad</item>
+        <item>Beed</item>
+        <item>Bhandara</item>
+        <item>Buldhana</item>
+        <item>Chandrapur</item>
+        <item>Dhule</item>
+        <item>Gadchiroli</item>
+        <item>Gondia</item>
+        <item>Hingoli</item>
+        <item>Jalgaon</item>
+        <item>Jalna</item>
+        <item>Kolhapur</item>
+        <item>Latur</item>
+        <item>Mumbai City</item>
+        <item>Mumbai Suburban</item>
+        <item>Nagpur</item>
+        <item>Nanded</item>
+        <item>Nandurbar</item>
+        <item>Nashik</item>
+        <item>Osmanabad</item>
+        <item>Palghar</item>
+        <item>Parbhani</item>
+        <item>Pune</item>
+        <item>Raigad</item>
+        <item>Ratnagiri</item>
+        <item>Sangli</item>
+        <item>Satara</item>
+        <item>Sindhudurg</item>
+        <item>Solapur</item>
+        <item>Thane</item>
+        <item>Wardha</item>
+        <item>Washim</item>
+        <item>Yavatmal</item>
+
+    </string-array>
+    <string-array name="spinner_districts_all">
+        <item>All Districts</item>
+        <item>Ahmednagar</item>
+        <item>Akola</item>
+        <item>Amravati</item>
+        <item>Aurangabad</item>
+        <item>Beed</item>
+        <item>Bhandara</item>
+        <item>Buldhana</item>
+        <item>Chandrapur</item>
+        <item>Dhule</item>
+        <item>Gadchiroli</item>
+        <item>Gondia</item>
+        <item>Hingoli</item>
+        <item>Jalgaon</item>
+        <item>Jalna</item>
+        <item>Kolhapur</item>
+        <item>Latur</item>
+        <item>Mumbai City</item>
+        <item>Mumbai Suburban</item>
+        <item>Nagpur</item>
+        <item>Nanded</item>
+        <item>Nandurbar</item>
+        <item>Nashik</item>
+        <item>Osmanabad</item>
+        <item>Palghar</item>
+        <item>Parbhani</item>
+        <item>Pune</item>
+        <item>Raigad</item>
+        <item>Ratnagiri</item>
+        <item>Sangli</item>
+        <item>Satara</item>
+        <item>Sindhudurg</item>
+        <item>Solapur</item>
+        <item>Thane</item>
+        <item>Wardha</item>
+        <item>Washim</item>
+        <item>Yavatmal</item>
+    </string-array>
+    <string-array name="searchBloodGroup">
+        <item>All</item>
+        <item>A +ve</item>
+        <item>A -ve</item>
+        <item>B +ve</item>
+        <item>B -ve</item>
+        <item>AB +ve</item>
+        <item>AB -ve</item>
+        <item>O +ve</item>
+        <item>O -ve</item>
+    </string-array>
+</resources>

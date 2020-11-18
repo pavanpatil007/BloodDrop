@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequestBloodActivity">
+
+
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+
+        android:layout_alignEnd="@+id/tvLocation"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="11dp"
+        android:text="@string/btn_location"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvLocation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvLocation"
+        app:layout_constraintStart_toStartOf="@+id/etPhoneNum"
+        app:layout_constraintTop_toTopOf="@+id/tvLocation" />
+
+    <Button
+        android:id="@+id/btnPostRequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="16dp"
+        android:text="@string/btn_post_my_request"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="12dp"
+        android:layout_toEndOf="@id/tvName"
+        android:ems="10"
+        android:hint="@string/et_hint_full_name"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvName"
+        app:layout_constraintTop_toTopOf="@+id/tvName" />
+
+    <EditText
+        android:id="@+id/etPhoneNum"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_alignEnd="@id/tvPhoneNum"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:hint="@string/tv_phone_num"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvPhoneNum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvPhoneNum"
+        app:layout_constraintTop_toTopOf="@+id/tvPhoneNum" />
+
+    <Spinner
+        android:id="@+id/spinnerBloodGroup"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_alignEnd="@id/tvBloodDon"
+        android:layout_marginEnd="11dp"
+        android:entries="@array/spinner_blood_group"
+        app:layout_constraintBottom_toBottomOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/etName"
+        app:layout_constraintTop_toTopOf="@+id/textView3" />
+
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="66dp"
+        android:text="@string/tv_location"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/btnLocation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPhoneNum" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="31dp"
+        android:text="@string/tv_name"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintEnd_toStartOf="@+id/etName"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPhoneNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="66dp"
+        android:text="@string/tv_phone_num"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvLocation"
+        app:layout_constraintEnd_toStartOf="@+id/etPhoneNum"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="39dp"
+        android:text="@string/tv_blood_group"
+        app:layout_constraintBottom_toTopOf="@+id/tvPhoneNum"
+        app:layout_constraintEnd_toStartOf="@+id/spinnerBloodGroup"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvBloodDon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvName"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/tv_don_blood"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

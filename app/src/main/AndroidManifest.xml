@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.blooddrop">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FeedbackActivity"></activity>
+        <activity android:name=".PermissionsActivity" />
+        <activity android:name=".ShowLocationActivity" />
+        <activity android:name=".ShowDatabaseActivity" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".ShowAllMapActivity" />
+        <activity android:name=".DonateFeedActivity" />
+        <activity android:name=".RequestFeedActivity" />
+        <activity
+            android:name=".ChooseMyLocationMapActivity"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FeedActivity" />
+        <activity android:name=".RequestBloodActivity" />
+        <activity android:name=".DonateBloodActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".FireBaseUIActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCLuAJ_M4byQf7ljqC3WI6wzl_TZF1jLA0"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+    </application>
+
+</manifest>

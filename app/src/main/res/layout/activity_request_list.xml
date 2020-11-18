@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp"
+    android:elevation="90dp"
+    app:cardCornerRadius="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#123455"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+        <TextView
+            android:id="@+id/tvTopic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blood Request"
+            android:textColor="#FFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvRequestListName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Name"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tvRequestListQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Quantity"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tvRequestListBloodGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="BloodGroup"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tvRequestListPhoneNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Phoneum"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tvRequestListAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Address"
+            android:textColor="#fff" />
+        <TextView
+            android:id="@+id/tvRequestListDateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="DateTime"
+            android:textColor="#fff" />
+        <TextView
+            android:id="@+id/tvRequestListPostedBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="Posted By"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"/>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

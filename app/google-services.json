@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "531726790798",
+    "firebase_url": "https://blooddrop-1e26a.firebaseio.com",
+    "project_id": "blooddrop-1e26a",
+    "storage_bucket": "blooddrop-1e26a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531726790798:android:30f9c8aacfd7a98d0759df",
+        "android_client_info": {
+          "package_name": "com.example.blooddrop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531726790798-5edc95cbj6kr7ga2tr536k3ggrq3g6r3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.blooddrop",
+            "certificate_hash": "46d3d3fa534058f096104d829d34fbd99ce4d507"
+          }
+        },
+        {
+          "client_id": "531726790798-1f2skt0bjhathkklvhohelodfmakmu27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNV_XBpEdtY32Gl0RIN8QcMYoixj_1V-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531726790798-1f2skt0bjhathkklvhohelodfmakmu27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
